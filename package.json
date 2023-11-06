@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-app",
+  "name": "backend-ecommerce-app",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,7 +20,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "075d6d43-2d3f-4a2f-a91e-6cb105c20042"
+    "uuid": "5307cea1-4f24-49e9-b709-536f18965c89"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",

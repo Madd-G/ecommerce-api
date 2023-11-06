@@ -4,13 +4,17 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "Order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "items": {
+      "type": "json"
+    },
     "totalPrice": {
       "type": "decimal"
     },
@@ -33,8 +37,11 @@
         "cancel"
       ]
     },
-    "items": {
-      "type": "json"
+    "noResi": {
+      "type": "string"
+    },
+    "buyerId": {
+      "type": "biginteger"
     }
   }
 }
